@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Art &amp; Music — Shipra Singh</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+<nav>
+  <div class="nav-inner">
+    <a class="nav-brand" href="index.html">Shipra Singh</a>
+    <button class="nav-toggle" aria-label="Toggle menu" onclick="document.querySelector('.nav-links').classList.toggle('open')">
+      <span></span><span></span><span></span>
+    </button>
+    <ul class="nav-links">
+      <li><a href="index.html">Home</a></li>
+      <li><a href="cv.html">CV</a></li>
+      <li><a href="lab.html">Lab</a></li>
+      <li><a href="reading-list.html">Reading List</a></li>
+      <li><a href="art-music.html" class="active">Art &amp; Music</a></li>
+    </ul>
+  </div>
+</nav>
+
+<main>
+
+  <!-- Intro -->
+  <section id="intro">
+    <h2>Art &amp; Music</h2>
+    <p>
+      Outside of research, I find joy in <strong>painting</strong> and
+      <strong>music</strong>. Creating art helps me think differently and
+      recharge — here is a small window into that side of my life.
+    </p>
+  </section>
+
+  <!-- Paintings -->
+  <section id="paintings">
+    <h2>🎨 Paintings</h2>
+    <p>
+      I primarily work with <em>watercolours</em> and <em>acrylics</em>.
+      My paintings are often inspired by landscapes, everyday objects, and abstract emotions.
+      Add your own images by replacing the placeholder blocks below!
+    </p>
+
+    <div class="gallery">
+
+      <div class="gallery-item">
+        <div class="gallery-placeholder">🌅</div>
+        <div class="gallery-caption">Sunrise over the hills &nbsp;·&nbsp; Watercolour, 2025</div>
+      </div>
+
+      <div class="gallery-item">
+        <div class="gallery-placeholder">🌊</div>
+        <div class="gallery-caption">Ocean at dusk &nbsp;·&nbsp; Acrylic, 2025</div>
+      </div>
+
+      <div class="gallery-item">
+        <div class="gallery-placeholder">🌿</div>
+        <div class="gallery-caption">Monsoon greens &nbsp;·&nbsp; Watercolour, 2024</div>
+      </div>
+
+      <div class="gallery-item">
+        <div class="gallery-placeholder">🏔️</div>
+        <div class="gallery-caption">Mountain silence &nbsp;·&nbsp; Acrylic, 2024</div>
+      </div>
+
+      <div class="gallery-item">
+        <div class="gallery-placeholder">🌸</div>
+        <div class="gallery-caption">Spring bloom &nbsp;·&nbsp; Watercolour, 2023</div>
+      </div>
+
+      <div class="gallery-item">
+        <div class="gallery-placeholder">🌙</div>
+        <div class="gallery-caption">Midnight blue &nbsp;·&nbsp; Acrylic, 2023</div>
+      </div>
+
+    </div>
+
+    <p style="color:var(--muted); font-family:'Helvetica Neue',Arial,sans-serif; font-size:.87rem">
+      💡 <em>To add real paintings, replace the placeholder divs with
+      <code>&lt;img src="images/your-painting.jpg" alt="description"&gt;</code>
+      inside each <code>.gallery-item</code>.</em>
+    </p>
+  </section>
+
+  <!-- Music -->
+  <section id="music">
+    <h2>🎵 Music</h2>
+    <p>
+      I play the <strong>guitar</strong> and enjoy singing. Music has been a part
+      of my life since childhood — I grew up listening to Hindustani classical
+      and later discovered a love for indie folk, jazz, and film scores.
+    </p>
+
+    <h3 style="margin-top:1rem;margin-bottom:.6rem">What I'm currently listening to</h3>
+    <div class="card">
+      <div class="playlist-item">
+        <div class="playlist-icon">🎶</div>
+        <div class="playlist-info">
+          <strong>Raag Yaman</strong>
+          <span>Pandit Jasraj &nbsp;·&nbsp; Hindustani Classical</span>
+        </div>
+      </div>
+      <div class="playlist-item">
+        <div class="playlist-icon">🎶</div>
+        <div class="playlist-info">
+          <strong>The Night We Met</strong>
+          <span>Lord Huron &nbsp;·&nbsp; Indie Folk</span>
+        </div>
+      </div>
+      <div class="playlist-item">
+        <div class="playlist-icon">🎶</div>
+        <div class="playlist-info">
+          <strong>So What</strong>
+          <span>Miles Davis &nbsp;·&nbsp; Jazz</span>
+        </div>
+      </div>
+      <div class="playlist-item">
+        <div class="playlist-icon">🎶</div>
+        <div class="playlist-info">
+          <strong>Interstellar Main Theme</strong>
+          <span>Hans Zimmer &nbsp;·&nbsp; Film Score</span>
+        </div>
+      </div>
+      <div class="playlist-item">
+        <div class="playlist-icon">🎶</div>
+        <div class="playlist-info">
+          <strong>Tum Hi Ho</strong>
+          <span>Arijit Singh &nbsp;·&nbsp; Bollywood</span>
+        </div>
+      </div>
+    </div>
+
+    <h3 style="margin-top:1.5rem;margin-bottom:.6rem">Instruments I play</h3>
+    <div class="tags">
+      <span class="tag">🎸 Guitar (Acoustic)</span>
+      <span class="tag">🎹 Piano (beginner)</span>
+      <span class="tag">🎤 Vocals</span>
+    </div>
+  </section>
+
+  <!-- Other creative pursuits -->
+  <section id="other">
+    <h2>✏️ Other Creative Pursuits</h2>
+    <div class="card">
+      <h3>Photography</h3>
+      <p>Street and nature photography on road trips. Mostly captured on my phone — a reminder
+      that the best camera is the one you have with you.</p>
+    </div>
+    <div class="card">
+      <h3>Poetry &amp; Short Writing</h3>
+      <p>I occasionally write short poems in English and Hindi.
+      Writing helps me process ideas that don't fit neatly into a research paper.</p>
+    </div>
+  </section>
+
+</main>
+
+<footer>
+  <p>© 2026 Shipra Singh &nbsp;·&nbsp; Built with ♥ and plain HTML</p>
+</footer>
+
+</body>
+</html>
