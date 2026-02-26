@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Lab — Shipra Singh</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+<nav>
+  <div class="nav-inner">
+    <a class="nav-brand" href="index.html">Shipra Singh</a>
+    <button class="nav-toggle" aria-label="Toggle menu" onclick="document.querySelector('.nav-links').classList.toggle('open')">
+      <span></span><span></span><span></span>
+    </button>
+    <ul class="nav-links">
+      <li><a href="index.html">Home</a></li>
+      <li><a href="cv.html">CV</a></li>
+      <li><a href="lab.html" class="active">Lab</a></li>
+      <li><a href="reading-list.html">Reading List</a></li>
+      <li><a href="art-music.html">Art &amp; Music</a></li>
+    </ul>
+  </div>
+</nav>
+
+<main>
+
+  <section id="lab-overview">
+    <h2>The Lab</h2>
+    <p>
+      I am a member of the <strong>XYZ Lab</strong> at University XYZ,
+      directed by <strong>Prof. XYZ</strong>. Our lab is part of the
+      Department of Computer Science and affiliated with the Center for Language
+      and Intelligence.
+    </p>
+    <p>
+      We work at the frontier of <em>natural language understanding</em>,
+      <em>knowledge representation</em>, and <em>multimodal learning</em>.
+      We are passionate about building AI systems that are robust, interpretable,
+      and useful in real-world, low-resource settings.
+    </p>
+    <div class="hero-links" style="margin-top:.8rem">
+      <a href="https://example-lab.university.edu" target="_blank" rel="noopener">Lab Website</a>
+      <a href="https://github.com/xyz-lab" target="_blank" rel="noopener">Lab GitHub</a>
+    </div>
+  </section>
+
+  <!-- Research areas -->
+  <section id="research-areas">
+    <h2>Research Areas</h2>
+
+    <div class="card">
+      <h3>🌍 Cross-lingual &amp; Multilingual NLP</h3>
+      <p>
+        Developing methods that enable language models to generalise across hundreds
+        of languages, including extremely low-resource ones. We study zero-shot and
+        few-shot transfer, language-agnostic representations, and massively multilingual
+        pretraining.
+      </p>
+      <div class="tags">
+        <span class="tag">Multilingual</span>
+        <span class="tag">Transfer Learning</span>
+        <span class="tag">Zero-shot</span>
+      </div>
+    </div>
+
+    <div class="card">
+      <h3>🧠 Knowledge Graphs &amp; Reasoning</h3>
+      <p>
+        Building efficient, scalable knowledge graph embeddings and integrating structured
+        world knowledge into neural models for question answering, relation extraction,
+        and common-sense reasoning.
+      </p>
+      <div class="tags">
+        <span class="tag">Knowledge Graphs</span>
+        <span class="tag">QA</span>
+        <span class="tag">Reasoning</span>
+      </div>
+    </div>
+
+    <div class="card">
+      <h3>💬 Robust &amp; Interpretable Dialogue</h3>
+      <p>
+        Studying the brittleness of task-oriented dialogue systems under distribution shift,
+        and developing explanation methods to make dialogue model decisions transparent and
+        trustworthy.
+      </p>
+      <div class="tags">
+        <span class="tag">Dialogue</span>
+        <span class="tag">Robustness</span>
+        <span class="tag">Interpretability</span>
+      </div>
+    </div>
+  </section>
+
+  <!-- Members -->
+  <section id="members">
+    <h2>Lab Members</h2>
+
+    <div class="card">
+      <h3>Prof. XYZ &nbsp;<span style="font-weight:normal;color:var(--muted);font-size:.9rem">(Principal Investigator)</span></h3>
+      <div class="card-meta">Professor, Department of Computer Science, University XYZ</div>
+      <p>Prof. XYZ received their PhD from ABC University and has 15+ years of experience
+      in NLP and machine learning research.</p>
+    </div>
+
+    <div class="card">
+      <h3>Shipra Singh &nbsp;<span style="font-weight:normal;color:var(--muted);font-size:.9rem">(PhD Student)</span></h3>
+      <div class="card-meta">Joined 2025 &nbsp;·&nbsp; Focus: Cross-lingual Transfer, KG-based QA</div>
+    </div>
+
+    <div class="card">
+      <h3>Co-author A &nbsp;<span style="font-weight:normal;color:var(--muted);font-size:.9rem">(PhD Student)</span></h3>
+      <div class="card-meta">Joined 2024 &nbsp;·&nbsp; Focus: Multilingual Pretraining</div>
+    </div>
+
+    <div class="card">
+      <h3>Co-author B &nbsp;<span style="font-weight:normal;color:var(--muted);font-size:.9rem">(Postdoc)</span></h3>
+      <div class="card-meta">Joined 2023 &nbsp;·&nbsp; Focus: Reasoning and Interpretability</div>
+    </div>
+  </section>
+
+  <!-- Talks & outreach -->
+  <section id="outreach">
+    <h2>Talks &amp; Outreach</h2>
+
+    <div class="cv-entry">
+      <div class="cv-year">Mar 2026</div>
+      <div>
+        <h3>Guest Lecture — NLP Reading Group, University XYZ</h3>
+        <p><em>"Low-resource NLP: Challenges and Opportunities"</em></p>
+      </div>
+    </div>
+
+    <div class="cv-entry">
+      <div class="cv-year">Nov 2025</div>
+      <div>
+        <h3>Poster Presentation — EMNLP 2025 Workshop</h3>
+        <p><em>"Adapter-based multilingual fine-tuning"</em></p>
+      </div>
+    </div>
+  </section>
+
+</main>
+
+<footer>
+  <p>© 2026 Shipra Singh &nbsp;·&nbsp; Built with ♥ and plain HTML</p>
+</footer>
+
+</body>
+</html>

@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Shipra Singh</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+<nav>
+  <div class="nav-inner">
+    <a class="nav-brand" href="index.html">Shipra Singh</a>
+    <button class="nav-toggle" aria-label="Toggle menu" onclick="document.querySelector('.nav-links').classList.toggle('open')">
+      <span></span><span></span><span></span>
+    </button>
+    <ul class="nav-links">
+      <li><a href="index.html" class="active">Home</a></li>
+      <li><a href="cv.html">CV</a></li>
+      <li><a href="lab.html">Lab</a></li>
+      <li><a href="reading-list.html">Reading List</a></li>
+      <li><a href="art-music.html">Art &amp; Music</a></li>
+    </ul>
+  </div>
+</nav>
+
+<main>
+
+  <!-- Hero -->
+  <div class="hero">
+    <div class="hero-avatar-placeholder" aria-hidden="true">SS</div>
+    <div class="hero-text">
+      <h1>Shipra Singh</h1>
+      <p class="tagline">PhD Researcher &nbsp;·&nbsp; Machine Learning &amp; NLP &nbsp;·&nbsp; University XYZ</p>
+      <div class="hero-links">
+        <a href="mailto:shipra@example.com">✉ Email</a>
+        <a href="https://scholar.google.com" target="_blank" rel="noopener">Google Scholar</a>
+        <a href="https://github.com/shipradsingh" target="_blank" rel="noopener">GitHub</a>
+        <a href="https://twitter.com/" target="_blank" rel="noopener">Twitter / X</a>
+        <a href="cv.html">CV</a>
+      </div>
+    </div>
+  </div>
+
+  <!-- About -->
+  <section id="about">
+    <h2>About Me</h2>
+    <p>
+      Hi! I am Shipra Singh, a PhD student at the <a href="lab.html">XYZ Lab</a> at University XYZ,
+      advised by Prof. XYZ. My research sits at the intersection of
+      <strong>natural language processing</strong>, <strong>machine learning</strong>,
+      and <strong>knowledge representation</strong>.
+    </p>
+    <p>
+      I am broadly interested in building systems that can understand and reason over language,
+      with a focus on low-resource scenarios and cross-lingual transfer.
+      Before starting my PhD I completed my B.Tech in Computer Science from ABC Institute of Technology.
+    </p>
+  </section>
+
+  <!-- News -->
+  <section id="news">
+    <h2>News</h2>
+    <div class="card">
+      <div class="card-meta">Feb 2026</div>
+      <p>📄 New preprint posted on arXiv — <em>"Cross-Lingual Transfer for Low-Resource NLP"</em>.</p>
+    </div>
+    <div class="card">
+      <div class="card-meta">Jan 2026</div>
+      <p>🎉 Paper accepted at ACL 2026 — <em>"Efficient Knowledge Graph Embeddings for QA"</em>.</p>
+    </div>
+    <div class="card">
+      <div class="card-meta">Sep 2025</div>
+      <p>🏫 Started PhD at University XYZ.</p>
+    </div>
+  </section>
+
+  <!-- Papers -->
+  <section id="papers">
+    <h2>Papers &amp; Preprints</h2>
+
+    <div class="card">
+      <h3>Cross-Lingual Transfer for Low-Resource NLP</h3>
+      <div class="card-meta">Shipra Singh, Co-author A, Co-author B &nbsp;·&nbsp; arXiv 2026 (preprint)</div>
+      <p>
+        We study how large multilingual language models transfer knowledge to unseen languages,
+        and propose a lightweight adapter-based fine-tuning strategy that improves accuracy
+        by up to 12 percentage points on benchmark datasets.
+      </p>
+      <div class="tags">
+        <span class="tag">NLP</span>
+        <span class="tag">Cross-lingual</span>
+        <span class="tag">Low-resource</span>
+        <span class="tag">Preprint</span>
+      </div>
+    </div>
+
+    <div class="card">
+      <h3>Efficient Knowledge Graph Embeddings for Question Answering</h3>
+      <div class="card-meta">Shipra Singh, Co-author C &nbsp;·&nbsp; ACL 2026</div>
+      <p>
+        We introduce a memory-efficient embedding method for large-scale knowledge graphs
+        and demonstrate strong performance on multi-hop question answering with significantly
+        reduced parameter counts.
+      </p>
+      <div class="tags">
+        <span class="tag">Knowledge Graphs</span>
+        <span class="tag">QA</span>
+        <span class="tag">ACL 2026</span>
+      </div>
+    </div>
+
+    <div class="card">
+      <h3>Towards Robust Dialogue Systems under Distribution Shift</h3>
+      <div class="card-meta">Shipra Singh et al. &nbsp;·&nbsp; <em>In progress</em></div>
+      <p>
+        An ongoing investigation into robustness of end-to-end dialogue systems when
+        test-time user intents differ significantly from training distributions.
+      </p>
+      <div class="tags">
+        <span class="tag">Dialogue</span>
+        <span class="tag">Robustness</span>
+        <span class="tag">In Progress</span>
+      </div>
+    </div>
+  </section>
+
+</main>
+
+<footer>
+  <p>© 2026 Shipra Singh &nbsp;·&nbsp; Built with ♥ and plain HTML</p>
+</footer>
+
+</body>
+</html>
